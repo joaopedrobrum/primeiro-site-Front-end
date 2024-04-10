@@ -269,4 +269,873 @@ DOAÇOES
 </html>
 
 
+                                APLICANDO VIDA NO PROJETO CSS
+
+#style.css
+ *{
+margin: 0%;
+padding: 0%;
+box-sizing: border-box;
+text-decoration: none;
+}
+body{
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #2f2325 16.62%, #52738e 85.61%);
+}
+/* CONFIGURANDO OS MENUS */
+.cabecalho{
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-around;
+padding: 24px 0px;
+}
+
+.cabecalhomenu1{
+padding: 20px;
+display: flex;
+flex-direction: row;
+gap: 30px;
+}
+
+.menu1{
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+color: aliceblue;
+font-weight: 400;
+font-size: 18px;
+}
+.menu2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: aliceblue;
+    font-weight: 400;
+    font-size: 18px;
+
+}
+.menu3{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: aliceblue;
+    font-weight: 400;
+    font-size: 18px;
+
+}
+.menu4{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: aliceblue;
+    font-weight: 400;
+    font-size: 18px;
+
+
+}
+
+
+
+.menu1:hover{
+    text-decoration: none; /* Remove o sublinhado dos links */
+    color: #000; /* Define a cor do texto */
+    padding: 10px 15px; /* Adiciona um padding para aumentar a área clicável */
+    border: 2px solid transparent; /* Adiciona uma borda transparente (será visível ao passar o mouse ou clicar) */
+    transition: all 0.3s ease; /* Adiciona uma transição suave para os efeitos */
+
+}
+
+
+.menu2:hover{
+    text-decoration: none; /* Remove o sublinhado dos links */
+    color: #000; /* Define a cor do texto */
+    padding: 10px 15px; /* Adiciona um padding para aumentar a área clicável */
+    border: 2px solid transparent; /* Adiciona uma borda transparente (será visível ao passar o mouse ou clicar) */
+    transition: all 0.3s ease; /* Adiciona uma transição suave para os efeitos */
+}
+
+
+.menu3:hover{
+    text-decoration: none; /* Remove o sublinhado dos links */
+    color: #000; /* Define a cor do texto */
+    padding: 10px 15px; /* Adiciona um padding para aumentar a área clicável */
+    border: 2px solid transparent; /* Adiciona uma borda transparente (será visível ao passar o mouse ou clicar) */
+    transition: all 0.3s ease; /* Adiciona uma transição suave para os efeitos */
+}
+.menu4:hover{
+    text-decoration: none; /* Remove o sublinhado dos links */
+    color: #000; /* Define a cor do texto */
+    padding: 10px 15px; /* Adiciona um padding para aumentar a área clicável */
+    border: 2px solid transparent; /* Adiciona uma borda transparente (será visível ao passar o mouse ou clicar) */
+    transition: all 0.3s ease; /* Adiciona uma transição suave para os efeitos */
+}
+
+
+
+/* CONFIGURANDO O CONTEUDO */
+
+
+.conteudo{
+    margin-bottom: 48px;
+border-top: 0.4px solid #7764e2; 
+
+}
+
+
+.conteudo-principal-escrito{
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-around;
+padding: 50px;
+}
+
+.conteudo-principal{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.conteudo-principal-escrito{
+font-family: cursive;
+color: #000000;
+}
+
+/* CONFIURANDO O VIDEO */
+.video{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:100px;
+    margin-left: 25%;
+   
+}
+
+/* CONTEUDO SECUNDARIO */
+.conteudo-secundario{
+   font-family: 'Courier New', Courier, monospace;
+
+}
+
+
+.legenda-secundaria{
+display: flex;
+flex-direction: row;
+align-items: center;
+padding-left: 400px;
+color: rgb(0, 6, 10);
+}
+
+
+.legenda-paragrafo1{
+    
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding-left: 100px;
+}
+
+
+.legenda-paragrafo2{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 100px;
+
+}
+
+
+.legenda-paragrafo3{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 100px;
+
+
+
+
+}
+/*  EEE FINALMENTE O RODAPE */
+.rodape{
+    padding: 32px;
+    border-top: 0.4px solid #7662e9;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.rodape-facebook{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: aliceblue;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+
+.rodape-Instagram{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: aliceblue;
+    font-weight: 400;
+    font-size: 18px;
+
+}
+
+
+.rodape-twitter{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: aliceblue;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+
+.rodape-facebook:hover{
+    text-decoration: none; /* Remove o sublinhado dos links */
+    color: #000; /* Define a cor do texto */
+    padding: 10px 15px; /* Adiciona um padding para aumentar a área clicável */
+    border: 2px solid transparent; /* Adiciona uma borda transparente (será visível ao passar o mouse ou clicar) */
+    transition: all 0.3s ease; /* Adiciona uma transição suave para os efeitos */
+}
+
+
+.rodape-Instagram:hover{
+    text-decoration: none; /* Remove o sublinhado dos links */
+    color: #000; /* Define a cor do texto */
+    padding: 10px 15px; /* Adiciona um padding para aumentar a área clicável */
+    border: 2px solid transparent; /* Adiciona uma borda transparente (será visível ao passar o mouse ou clicar) */
+    transition: all 0.3s ease; /* Adiciona uma transição suave para os efeitos */
+}
+
+
+.rodape-Youtube:hover{
+    text-decoration: none; /* Remove o sublinhado dos links */
+    color: #000; /* Define a cor do texto */
+    padding: 10px 15px; /* Adiciona um padding para aumentar a área clicável */
+    border: 2px solid transparent; /* Adiciona uma borda transparente (será visível ao passar o mouse ou clicar) */
+    transition: all 0.3s ease; /* Adiciona uma transição suave para os efeitos */
+} 
+
+#QUEMSOMOS.css
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+    }
+
+
+    body{
+        font-size: 100%;
+        background: linear-gradient(68.15deg, #2f2325 16.62%, #52738e 85.61%);
+    }
+
+/* CONFIGURANDO OS MENUS */
+.cabecalho{
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-around;
+padding:24px 10px;
+margin: 15px;
+}
+
+.cabecalhomenu1{
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    padding: 24px 0px;
+    }
+
+    .menu1{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: aliceblue;
+        font-weight: 400;
+        font-size: 18px;
+        align-items:center;
+        padding: 20px;
+        }
+
+        .menu2{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            color: aliceblue;
+            font-weight: 400;
+            font-size: 18px;
+            padding: 24px;
+        }
+        .menu3{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            color: aliceblue;
+            font-weight: 400;
+            font-size: 18px;
+            padding: 24px;
+        }
+.menu4{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            color: aliceblue;
+            font-weight: 400;
+            font-size: 18px;
+}
+
+        .menu1:hover{
+            text-decoration: none; /* Remove o sublinhado dos links */
+            color: #000; /* Define a cor do texto */
+            padding: 10px 15px; /* Adiciona um padding para aumentar a área clicável */
+            border: 2px solid transparent; /* Adiciona uma borda transparente (será visível ao passar o mouse ou clicar) */
+            transition: all 0.3s ease; /* Adiciona uma transição suave para os efeitos */
+        
+        }
+        
+        
+        .menu2:hover{
+            text-decoration: none; /* Remove o sublinhado dos links */
+            color: #000; /* Define a cor do texto */
+            padding: 10px 15px; /* Adiciona um padding para aumentar a área clicável */
+            border: 2px solid transparent; /* Adiciona uma borda transparente (será visível ao passar o mouse ou clicar) */
+            transition: all 0.3s ease; /* Adiciona uma transição suave para os efeitos */
+        }
+        
+        
+        .menu3:hover{
+            text-decoration: none; /* Remove o sublinhado dos links */
+            color: #000; /* Define a cor do texto */
+            padding: 10px 15px; /* Adiciona um padding para aumentar a área clicável */
+            border: 2px solid transparent; /* Adiciona uma borda transparente (será visível ao passar o mouse ou clicar) */
+            transition: all 0.3s ease; /* Adiciona uma transição suave para os efeitos */
+        }
+        .menu4:hover{
+            text-decoration: none; /* Remove o sublinhado dos links */
+            color: #000; /* Define a cor do texto */
+            padding: 10px 15px; /* Adiciona um padding para aumentar a área clicável */
+            border: 2px solid transparent; /* Adiciona uma borda transparente (será visível ao passar o mouse ou clicar) */
+            transition: all 0.3s ease; /* Adiciona uma transição suave para os efeitos */
+        }
+        
+        
+        /* CONFIGURANDO O CONTEUDO SESSAO1 */
+
+        .conteudo{
+            margin-bottom: 48px;
+        border-top: 0.4px solid #7764e2; 
+        
+        }
+
+
+.conteudo-quemsomos{
+    display: flex;
+   flex-direction: row;
+
+
+}
+.fotoquemsomos{
+    padding: 60px;
+    margin-bottom: 50%;
+}
+
+.quemsomos{
+margin: 25px;;
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+padding: 50px;
+font-family: sans-serif;
+
+}
+
+
+.textoquemsomos{
+display: flex;
+margin-top: 10%;
+font-family: sans-serif;
+}
+
+.divimagem{
+
+
+}
+
+
+
+.segundafoto{
+
+    width: 40%;
+    height: 40%;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+}
+
+
+.texto2{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 80%;
+    left: 20%;
+    width: 30%;
+    font-family: sans-serif;
+    padding: 100px;
+    font-size: 20px;
+
+    }
+
+
+/* CONFIGURAÇOES DAS FOTOS DA SESSAO 2 */
+
+.row {
+    display: flex; /* Cria um container flexível */
+}
+.coluna {
+    flex: 1; /* Distribui o espaço igualmente entre as colunas */
+    padding: 10px; /* Espaçamento entre as imagens */
+}
+.coluna img {
+    width: 100%; /* Faz a imagem preencher toda a área da coluna */
+}
+
+
+/* RODAPE COONF */
+
+.rodape{
+    padding: 32px;
+    border-top: 0.4px solid #7662e9;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.rodape-facebook{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: aliceblue;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+
+.rodape-Instagram{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: aliceblue;
+    font-weight: 400;
+    font-size: 18px;
+
+}
+
+
+.rodape-Youtube{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: aliceblue;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+
+.rodape-facebook:hover{
+    text-decoration: none; /* Remove o sublinhado dos links */
+    color: #000; /* Define a cor do texto */
+    padding: 10px 15px; /* Adiciona um padding para aumentar a área clicável */
+    border: 2px solid transparent; /* Adiciona uma borda transparente (será visível ao passar o mouse ou clicar) */
+    transition: all 0.3s ease; /* Adiciona uma transição suave para os efeitos */
+}
+
+
+.rodape-Instagram:hover{
+    text-decoration: none; /* Remove o sublinhado dos links */
+    color: #000; /* Define a cor do texto */
+    padding: 10px 15px; /* Adiciona um padding para aumentar a área clicável */
+    border: 2px solid transparent; /* Adiciona uma borda transparente (será visível ao passar o mouse ou clicar) */
+    transition: all 0.3s ease; /* Adiciona uma transição suave para os efeitos */
+}
+
+
+.rodape-Youtube:hover{
+    text-decoration: none; /* Remove o sublinhado dos links */
+    color: #000; /* Define a cor do texto */
+    padding: 10px 15px; /* Adiciona um padding para aumentar a área clicável */
+    border: 2px solid transparent; /* Adiciona uma borda transparente (será visível ao passar o mouse ou clicar) */
+    transition: all 0.3s ease; /* Adiciona uma transição suave para os efeitos */
+}
+
+
+#DOAÇOES.css
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+    }
+
+
+    body{
+        font-size: 100%;
+        background: linear-gradient(68.15deg, #2f2325 16.62%, #52738e 85.61%);
+    }
+
+/* CONFIGURANDO OS MENUS */
+.cabecalho{
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-around;
+padding: 24px 0px;
+}
+
+.cabecalhomenu1{
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    }
+
+    .menu1{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: aliceblue;
+        font-weight: 400;
+        font-size: 18px;
+        }
+
+        .menu2{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            color: aliceblue;
+            font-weight: 400;
+            font-size: 18px;
+        
+        }
+        .menu3{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            color: aliceblue;
+            font-weight: 400;
+            font-size: 18px;
+        
+        }
+.menu4{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            color: aliceblue;
+            font-weight: 400;
+            font-size: 18px;
+}
+
+        .menu1:hover{
+            text-decoration: none; /* Remove o sublinhado dos links */
+            color: #000; /* Define a cor do texto */
+            padding: 10px 15px; /* Adiciona um padding para aumentar a área clicável */
+            border: 2px solid transparent; /* Adiciona uma borda transparente (será visível ao passar o mouse ou clicar) */
+            transition: all 0.3s ease; /* Adiciona uma transição suave para os efeitos */
+        
+        }
+        
+        
+        .menu2:hover{
+            text-decoration: none; /* Remove o sublinhado dos links */
+            color: #000; /* Define a cor do texto */
+            padding: 10px 15px; /* Adiciona um padding para aumentar a área clicável */
+            border: 2px solid transparent; /* Adiciona uma borda transparente (será visível ao passar o mouse ou clicar) */
+            transition: all 0.3s ease; /* Adiciona uma transição suave para os efeitos */
+        }
+        
+        
+        .menu3:hover{
+            text-decoration: none; /* Remove o sublinhado dos links */
+            color: #000; /* Define a cor do texto */
+            padding: 10px 15px; /* Adiciona um padding para aumentar a área clicável */
+            border: 2px solid transparent; /* Adiciona uma borda transparente (será visível ao passar o mouse ou clicar) */
+            transition: all 0.3s ease; /* Adiciona uma transição suave para os efeitos */
+        }
+        .menu4:hover{
+            text-decoration: none; /* Remove o sublinhado dos links */
+            color: #000; /* Define a cor do texto */
+            padding: 10px 15px; /* Adiciona um padding para aumentar a área clicável */
+            border: 2px solid transparent; /* Adiciona uma borda transparente (será visível ao passar o mouse ou clicar) */
+            transition: all 0.3s ease; /* Adiciona uma transição suave para os efeitos */
+        }
+
+        /* CONFIGURANDO O CONTEUDO SESSAO1 */
+
+        .conteudo{
+            margin-bottom: 48px;
+        border-top: 0.4px solid #7764e2; 
+        
+        }
+
+        /* sessao */
+        
+
+.doaçoes1{
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 50px;
+
+
+}
+
+
+.paragrafo-doa{
+font-family: sans-serif;
+
+
+}
+
+.fotodoa{
+width: 50%;
+height: 45%;
+align-items: center;
+padding:50px;
+margin: 10px;
+
+
+}
+
+/* rodape */
+
+.rodape{
+    padding: 32px;
+    border-top: 0.4px solid #7662e9;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.rodape-facebook{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: aliceblue;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+
+.rodape-Instagram{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: aliceblue;
+    font-weight: 400;
+    font-size: 18px;
+
+}
+.rodape-Youtube{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: aliceblue;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+
+.rodape-facebook:hover{
+    text-decoration: none; /* Remove o sublinhado dos links */
+    color: #000; /* Define a cor do texto */
+    padding: 10px 15px; /* Adiciona um padding para aumentar a área clicável */
+    border: 2px solid transparent; /* Adiciona uma borda transparente (será visível ao passar o mouse ou clicar) */
+    transition: all 0.3s ease; /* Adiciona uma transição suave para os efeitos */
+}
+
+
+.rodape-Instagram:hover{
+    text-decoration: none; /* Remove o sublinhado dos links */
+    color: #000; /* Define a cor do texto */
+    padding: 10px 15px; /* Adiciona um padding para aumentar a área clicável */
+    border: 2px solid transparent; /* Adiciona uma borda transparente (será visível ao passar o mouse ou clicar) */
+    transition: all 0.3s ease; /* Adiciona uma transição suave para os efeitos */
+}
+
+
+.rodape-Youtube:hover{
+    text-decoration: none; /* Remove o sublinhado dos links */
+    color: #f70909; /* Define a cor do texto */
+    padding: 10px 15px; /* Adiciona um padding para aumentar a área clicável */
+    border: 2px solid transparent; /* Adiciona uma borda transparente (será visível ao passar o mouse ou clicar) */
+    transition: all 0.3s ease; /* Adiciona uma transição suave para os efeitos */
+}
+
+
+#CONTATO.css
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+    }
+
+
+    body{
+        font-size: 100%;
+        background: linear-gradient(68.15deg, #2f2325 16.62%, #52738e 85.61%);
+    }
+
+/* CONFIGURANDO OS MENUS */
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px 0px;
+    
+    }
+
+.cabecalhomenu1{
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    }
+
+    .menu1{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: aliceblue;
+        font-weight: 400;
+        font-size: 18px;
+        }
+
+        .menu2{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            color: aliceblue;
+            font-weight: 400;
+            font-size: 18px;
+        
+        }
+        .menu3{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            color: aliceblue;
+            font-weight: 400;
+            font-size: 18px;
+        
+        }
+.menu4{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            color: aliceblue;
+            font-weight: 400;
+            font-size: 18px;
+}
+
+        .menu1:hover{
+            text-decoration: none; /* Remove o sublinhado dos links */
+            color: #000; /* Define a cor do texto */
+            padding: 10px 15px; /* Adiciona um padding para aumentar a área clicável */
+            border: 2px solid transparent; /* Adiciona uma borda transparente (será visível ao passar o mouse ou clicar) */
+            transition: all 0.3s ease; /* Adiciona uma transição suave para os efeitos */
+        
+        }
+        
+        
+        .menu2:hover{
+            text-decoration: none; /* Remove o sublinhado dos links */
+            color: #000; /* Define a cor do texto */
+            padding: 10px 15px; /* Adiciona um padding para aumentar a área clicável */
+            border: 2px solid transparent; /* Adiciona uma borda transparente (será visível ao passar o mouse ou clicar) */
+            transition: all 0.3s ease; /* Adiciona uma transição suave para os efeitos */
+        }
+        
+        
+        .menu3:hover{
+            text-decoration: none; /* Remove o sublinhado dos links */
+            color: #000; /* Define a cor do texto */
+            padding: 10px 15px; /* Adiciona um padding para aumentar a área clicável */
+            border: 2px solid transparent; /* Adiciona uma borda transparente (será visível ao passar o mouse ou clicar) */
+            transition: all 0.3s ease; /* Adiciona uma transição suave para os efeitos */
+        }
+        .menu4:hover{
+            text-decoration: none; /* Remove o sublinhado dos links */
+            color: #000; /* Define a cor do texto */
+            padding: 10px 15px; /* Adiciona um padding para aumentar a área clicável */
+            border: 2px solid transparent; /* Adiciona uma borda transparente (será visível ao passar o mouse ou clicar) */
+            transition: all 0.3s ease; /* Adiciona uma transição suave para os efeitos */
+        }
+
+.conteudo{
+    margin-bottom: 48px;
+        border-top: 0.4px solid #7764e2; 
+}
+       
+  .titulo{
+    padding: 20px;
+  }
+
+  .endereço{
+    font-family: 'Times New Roman', Times, serif;
+  font-size: 50px;
+  }
+  .tel{
+font-family: 'Times New Roman', Times, serif;
+font-size: 30px;
+
+  }
+
+  .email{
+
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+
+  }
+
+  .formulario{
+
+padding: 50px;
+
+  }
+
+  .mapa1{
+width: 70%;
+margin: 40px;
+
+  }
+
+  /*  EEE FINALMENTE O RODAPE */
+.rodape{
+    padding: 32px;
+    border-top: 0.4px solid #7662e9;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.rodape-facebook{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: aliceblue;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+
+.rodape-Instagram{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: aliceblue;
+    font-weight: 400;
+    font-size: 18px;
+
+}
+
+
+.rodape-twitter{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: aliceblue;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+
+.rodape-facebook:hover{
+    text-decoration: none; /* Remove o sublinhado dos links */
+    color: #000; /* Define a cor do texto */
+    padding: 10px 15px; /* Adiciona um padding para aumentar a área clicável */
+    border: 2px solid transparent; /* Adiciona uma borda transparente (será visível ao passar o mouse ou clicar) */
+    transition: all 0.3s ease; /* Adiciona uma transição suave para os efeitos */
+}
+
+
+.rodape-Instagram:hover{
+    text-decoration: none; /* Remove o sublinhado dos links */
+    color: #000; /* Define a cor do texto */
+    padding: 10px 15px; /* Adiciona um padding para aumentar a área clicável */
+    border: 2px solid transparent; /* Adiciona uma borda transparente (será visível ao passar o mouse ou clicar) */
+    transition: all 0.3s ease; /* Adiciona uma transição suave para os efeitos */
+}
+
+
+.rodape-Youtube:hover{
+    text-decoration: none; /* Remove o sublinhado dos links */
+    color: #000; /* Define a cor do texto */
+    padding: 10px 15px; /* Adiciona um padding para aumentar a área clicável */
+    border: 2px solid transparent; /* Adiciona uma borda transparente (será visível ao passar o mouse ou clicar) */
+    transition: all 0.3s ease; /* Adiciona uma transição suave para os efeitos */
+}
+
+
 
